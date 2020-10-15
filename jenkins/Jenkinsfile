@@ -23,11 +23,11 @@ pipeline {
                     junit 'target/surefire-reports/*.xml'
                 }
             }
+        }
           stage('Test_David') {
             steps {
                 sh 'ls -lia'
             }
         }
     }
-}
 }
